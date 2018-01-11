@@ -1,7 +1,7 @@
 #ifndef BLOK_HPP
 #define BLOK_HPP
 
-#include<vector> // Forward declaration not possible
+#include <vector> // Forward declaration not possible
 
 class Poziom; // Forward declaration
 
