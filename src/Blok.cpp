@@ -11,6 +11,12 @@ Blok::~Blok() {
     }
 }
 
-void Blok::dodajPoziom(Poziom *poziom) {}
+void Blok::dodajPoziom(Poziom *poziom) {
+    this->poziomy.push_back(poziom);
+}
 
-void Blok::wyswietlPoziomy() {}
+void Blok::wyswietlPoziomy() {
+    for (auto it = this->poziomy.begin(); it != this->poziomy.end(); ++it) {
+        (*it)->wyswietl(); // (*it) is of type Poziom*
+    }
+}
