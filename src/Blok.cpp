@@ -5,7 +5,11 @@
    will be called */
 Blok::Blok() : poziomy() {}
 
-Blok::~Blok() {}
+Blok::~Blok() {
+    for (auto it = this->poziomy.begin(); it != this->poziomy.end(); ++it) {
+        delete (*it); // Call the destructor of Poziom
+    }
+}
 
 void Blok::dodajPoziom(Poziom *poziom) {}
 
