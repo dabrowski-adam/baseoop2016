@@ -14,6 +14,11 @@ set(CMAKE_VERBOSE_MAKEFILE TRUE)
 
 #Source files here
 set(SOURCE_FILES
+        src/Blok.cpp
+        src/Poziom.cpp
+        src/Pietro.cpp
+        src/Drzwi.cpp
+        src/Okna.cpp
         src/Template.cpp
         src/main.cpp)
 
