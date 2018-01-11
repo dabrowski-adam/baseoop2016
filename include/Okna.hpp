@@ -10,6 +10,7 @@ class Okna : Poziom {
 		Okna(char sciana, bool ozdobne);
     ~Okna();
 		virtual void wyswietl();
+		bool getOzdobne();
 };
 
 #endif // OKNA_HPP

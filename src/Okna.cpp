@@ -6,3 +6,5 @@ Okna::Okna(char sciana, bool ozdobne)
 Okna::~Okna() {}
 
 void Okna::wyswietl() {}
+
+bool Okna::getOzdobne() { return this->ozdobne; }

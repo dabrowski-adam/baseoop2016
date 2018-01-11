@@ -10,6 +10,7 @@ class Pietro : Poziom {
 		Pietro(char sciana);
     ~Pietro();
 		virtual void wyswietl();
+		bool getDach();
 };
 
 #endif // PIETRO_HPP

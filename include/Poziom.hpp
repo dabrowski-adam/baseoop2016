@@ -8,6 +8,7 @@ class Poziom {
 		Poziom(char sciana);
     ~Poziom();
 		virtual void wyswietl() = 0; // Abstract method
+		char getSciana();
 };
 
 #endif // POZIOM_HPP
