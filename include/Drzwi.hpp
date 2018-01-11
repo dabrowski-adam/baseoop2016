@@ -3,7 +3,7 @@
 
 #include "Poziom.hpp"
 
-class Drzwi : Poziom {
+class Drzwi : public Poziom {
 	public:
 		Drzwi(char sciana);
     ~Drzwi();

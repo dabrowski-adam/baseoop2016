@@ -3,7 +3,7 @@
 
 #include "Poziom.hpp"
 
-class Okna : Poziom {
+class Okna : public Poziom {
 	private:
 		bool ozdobne;
 	public:

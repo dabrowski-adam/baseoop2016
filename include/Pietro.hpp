@@ -3,14 +3,11 @@
 
 #include "Poziom.hpp"
 
-class Pietro : Poziom {
-	private:
-		bool dach;
+class Pietro : public Poziom {
 	public:
 		Pietro(char sciana);
     ~Pietro();
 		virtual void wyswietl();
-		bool getDach();
 };
 
 #endif // PIETRO_HPP
