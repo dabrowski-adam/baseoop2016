@@ -1,4 +1,5 @@
 #include "Blok.hpp"
+#include <iostream>
 
 /* poziomy() - value-initialization
    the default constructor of std::vector
@@ -18,5 +19,6 @@ void Blok::dodajPoziom(Poziom *poziom) {
 void Blok::wyswietlPoziomy() {
     for (auto it = this->poziomy.begin(); it != this->poziomy.end(); ++it) {
         (*it)->wyswietl(); // (*it) is of type Poziom*
+        std::cout << std::endl;
     }
 }

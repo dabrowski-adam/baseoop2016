@@ -19,7 +19,7 @@ set(SOURCE_FILES
         src/Pietro.cpp
         src/Drzwi.cpp
         src/Okna.cpp
-        src/Template.cpp
+        #src/Template.cpp
         src/main.cpp)
 
 add_executable(Project ${SOURCE_FILES})
@@ -37,8 +37,15 @@ include_directories(
 #Test source files here
 set(SOURCE_TEST_FILES
         test/master.cpp
-        test/TestTemplate.cpp
-        src/Template.cpp)
+        #test/TestTemplate.cpp
+        test/TestOkna.cpp
+        test/TestPietro.cpp
+        #src/Template.cpp
+        src/Blok.cpp
+        src/Poziom.cpp
+        src/Pietro.cpp
+        src/Drzwi.cpp
+        src/Okna.cpp)
 
 add_executable(TestProject ${SOURCE_TEST_FILES})
 
